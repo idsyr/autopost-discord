@@ -6,7 +6,7 @@ option(SLEEPY_DISCORD_BUILD_EXAMPLES "Build examples of Sleepy Discord"         
 option(ONLY_SLEEPY_DISCORD           "Sleepy Discord but none of the dependencies, except build in onces" OFF)
 option(ENABLE_VOICE                  "Enable voice support"                                               OFF)
 if (NOT ONLY_SLEEPY_DISCORD)
-	option(AUTO_DOWNLOAD_LIBRARY         "Automatically download sleepy discord standard config dependencies" ON )
+	option(AUTO_DOWNLOAD_LIBRARY         "Automatically download sleepy discord standard config dependencies" OFF)
 	option(SLEEPY_VCPKG                  "VCPKG with Sleepy Discord"                                          OFF)
 	option(USE_CPR                       "Use CPR http library"                                               ON )
 	option(USE_ASIO                      "Use ASIO network and I/O library (Used for UDP and TCP)"            ON)
